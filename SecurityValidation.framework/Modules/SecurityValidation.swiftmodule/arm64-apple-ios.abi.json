@@ -1,0 +1,120 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SecurityValidation",
+    "printedName": "SecurityValidation",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SecurityValidation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SecurityValidation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SecurityValidation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SecurityValidation"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JailbreakDetector",
+        "printedName": "JailbreakDetector",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakDetector",
+                "printedName": "SecurityValidation.JailbreakDetector",
+                "usr": "s:18SecurityValidation17JailbreakDetectorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18SecurityValidation17JailbreakDetectorCACycfc",
+            "mangledName": "$s18SecurityValidation17JailbreakDetectorCACycfc",
+            "moduleName": "SecurityValidation",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isDeviceJailbroken",
+            "printedName": "isDeviceJailbroken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18SecurityValidation17JailbreakDetectorC18isDeviceJailbrokenSbyF",
+            "mangledName": "$s18SecurityValidation17JailbreakDetectorC18isDeviceJailbrokenSbyF",
+            "moduleName": "SecurityValidation",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18SecurityValidation17JailbreakDetectorC",
+        "mangledName": "$s18SecurityValidation17JailbreakDetectorC",
+        "moduleName": "SecurityValidation",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
